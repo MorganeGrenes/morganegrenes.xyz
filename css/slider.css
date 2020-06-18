@@ -1,0 +1,386 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Roboto:200,300,400,600,700&subset=latin,latin);
+
+* {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body{
+	background-color: #eeeeee;
+	color: #565656;
+	font-family: Roboto;
+}
+
+/* SLIDER */
+.main-container {
+  padding: 10px 15px;
+}
+.portrait-louche {
+	background-color: #22c8ff;
+  background-image:url("../Ressources/image/portrait-louche.jpg");
+  background-size:100% 100%;
+}
+.dessin-cerf {
+	background-color: #22c8ff;
+  background-image:url("../Ressources/image/dessin-cerf.jpg");
+  background-size:100% 100%; 
+}
+
+.dessin-ours {
+	background-color: #22c8ff;
+  background-image:url("../Ressources/image/dessin-ours.jpg");
+  background-size:100% 100%; 
+}
+.laine {
+	background-color: #00a6dd;
+  background-image:url("../Ressources/image/laine.jpg");
+  background-size:100% 100%;
+}
+.bretagne {
+	background-color: #00a6dd;
+  background-image:url("../Ressources/image/bretagne.jpg");
+  background-size:100% 100%;
+}
+.dyinglight {
+	background-color: #00a6dd;
+  background-image:url("../Ressources/image/dyinglight.jpg");
+  background-size:100% 100%;
+}
+.Skyrim-pixels-logo {
+	background-color: #00a6dd;
+  background-image:url("../Ressources/image/Skyrim-pixels-logo.jpg");
+  background-size:100% 100%;
+}
+
+
+
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel .item {
+	min-height: 350px; 
+	height: 100%;
+	width:100%; 
+}
+.carousel-caption h3,
+.carousel .icon-container,
+.carousel-caption button {
+	background-color: #09c;
+}
+.carousel-caption h3 {
+	padding: .5em;
+}
+.carousel .icon-container {
+	display: inline-block;
+	font-size: 25px;
+	line-height: 25px;
+	padding: 1em;
+	text-align: center;
+	border-radius: 50%;
+}
+.carousel-caption button {
+	border-color: #00bfff;
+	margin-top: 1em; 
+}
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+	animation-delay: 1s;
+}
+.carousel-caption h3:nth-child(2) {
+	animation-delay: 2s;
+}
+.carousel-caption button {
+	animation-delay: 3s;
+}
+
+h1 {
+  text-align: center;  
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p {
+  padding-top: 125px;
+  text-align: center;
+}
+
+.p a {
+  text-decoration: underline;
+}
+
+/*FIN SLIDER*/
+
+a{
+	text-decoration: none;
+	color: #8BC34A;
+	font-weight: bold;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+ul{
+	list-style: none;	
+}
+
+header{
+	padding-top: 20px;
+	width: 100%;	
+	background-color: #8BC34A;
+	-webkit-box-shadow: 0 5px 6px -6px #777;
+	   -moz-box-shadow: 0 5px 6px -6px #777;
+	        box-shadow: 0 5px 6px -6px #777;
+}
+
+header h1 {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: auto;	
+	background: url("Ressources/image/favicon.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;	
+	text-indent: -99999px;
+    font-size: 0px;
+}
+
+.friend-link{
+	color: #565656;
+}
+
+.container{
+	width: 960px;	
+	margin: auto;
+}
+
+.title{
+	margin: 0 10px;
+	padding-top: 20px;
+	margin-bottom: -20px;
+	font-weight: bold;
+	font-size: 35px;
+	opacity: 0.22;
+}
+
+.card{	
+	width: 940px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: #fbfbfb;
+	-webkit-box-shadow: 0 5px 6px -6px #777;
+	   -moz-box-shadow: 0 5px 6px -6px #777;
+	        box-shadow: 0 5px 6px -6px #777;
+}
+
+.greycard{	
+	width: 940px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin: 0 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: #DBE1F2
+;
+	-webkit-box-shadow: 0 5px 6px -6px #777;
+	   -moz-box-shadow: 0 5px 6px -6px #777;
+	        box-shadow: 0 5px 6px -6px #777;
+}
+
+.circleImg{
+	background: rgba(0, 0, 0, 0.1);
+    width: 160px;
+    height: 160px;
+    display: inline-block;    
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.circleImg img{	
+    width: 100%;
+}
+
+.container .text{	
+	width: 640px;
+	display: inline-block;
+}
+
+.container .text h2{
+	font-size: 20px;	
+}
+
+.container .text p{
+	font-size: 16px;
+	text-align: justify;
+}
+
+.container .text h3{
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+.pic{
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+
+
+.drawing{
+	overflow: hidden;
+}
+.drawing ul{
+	padding: 0 0 0 0;
+	padding-top: 20px;
+	
+}
+.drawing ul li {
+	margin: 0 0 0 0;
+}
+.drawing ul li a{	
+	margin: 10px 10px;
+	float: left;
+	display: block;
+	width: 220px;
+	height: 220px;
+	background-color: #fbfbfb;
+}
+
+.drawing ul li a img{
+	width: 220px;
+    height: 220px;
+    display: inline-block;    
+    overflow: hidden;
+}
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;	
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+
+
+
+footer{
+	width: 100%;		
+	display: block;
+	text-align: center;	
+}
+
+footer ul{	
+	padding: 40px 0;	
+	display: block;
+	margin: auto;			
+}
+
+footer ul li{
+	display: inline;
+	margin: 0 5px;
+}
+
+footer ul a{
+	font-weight: bold;	
+	color: rgba(0, 0, 0, 0.2);
+}
+
+footer ul a:hover{
+	color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 960px) {
+	
+	.container{
+		width: 100%;
+	}
+
+	.card{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+
+	.circleImg{
+		display: block;
+		float: none;
+		margin: auto;
+	}
+
+	.title{
+		text-align: center;
+	}
+	.container .text{	
+		width: 100%;		
+		padding: 0 20px;
+		display: block;
+
+	}
+
+	.container .text h2{
+		text-align: center;
+		font-size: 25px;	
+	}
+
+	.container .text p{
+		font-size: 20px;
+		text-align: justify;
+	}
+
+	.drawing ul li a{
+		display: block;
+		margin: 10px auto;
+		float: initial;
+	}
+}
+
+
