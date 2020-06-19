@@ -28,26 +28,15 @@ body{
   background-image:url("../Ressources/image/dessin-cerf.jpg");
   background-size:100% 100%; 
 }
-
 .dessin-ours {
 	background-color: #22c8ff;
   background-image:url("../Ressources/image/dessin-ours.jpg");
-  background-size:100% 100%; 
-}
-.tournage-mff {
-	background-color: #22c8ff;
-  background-image:url("../Ressources/image/tournage-mff.jpg");
   background-size:100% 100%; 
 }
 .laine {
 	background-color: #00a6dd;
   background-image:url("../Ressources/image/laine.jpg");
   background-size:100% 100%;
-}
-.bonnet {
-	background-color: #22c8ff;
-  background-image:url("../Ressources/image/bonnet.jpg");
-  background-size:100% 100%; 
 }
 .bretagne {
 	background-color: #00a6dd;
