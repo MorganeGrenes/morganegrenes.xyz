@@ -54,8 +54,21 @@ body{
   background-image:url("../Ressources/image/Skyrim-pixels-logo.jpg");
   background-size:100% 100%;
 }
-
-
+.pixel-bow {
+	background-color: #00a6dd;
+  background-image:url("../Ressources/video/pixel-bow.gif");
+  background-size:100% 100%;
+}
+.pixel-cry {
+	background-color: #00a6dd;
+  background-image:url("../Ressources/video/pixel-cry.gif");
+  background-size:100% 100%;
+}
+.pixel-fight {
+	background-color: #00a6dd;
+  background-image:url("../Ressources/video/pixel-fight.gif");
+  background-size:100% 100%;
+}
 
 .carousel-indicators {
 	bottom: 0;
@@ -194,7 +207,7 @@ header h1 {
 	margin: 0 10px;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	background-color: #DBE1F2
+	background-color: #D8DBDE
 ;
 	-webkit-box-shadow: 0 5px 6px -6px #777;
 	   -moz-box-shadow: 0 5px 6px -6px #777;
@@ -380,6 +393,11 @@ footer ul a:hover{
 		display: block;
 		margin: 10px auto;
 		float: initial;
+	}
+	.greycard{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
 	}
 }
 
