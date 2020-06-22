@@ -19,54 +19,35 @@ body{
   padding: 10px 15px;
 }
 .portrait-louche {
-	background-color: #22c8ff;
-  background-image:url("../Ressources/image/portrait-louche.jpg");
-  background-size:100% 100%;
+  background-image:url("../Ressources/image/portrait-louche.jpg");  
 }
 .dessin-cerf {
-	background-color: #22c8ff;
   background-image:url("../Ressources/image/dessin-cerf.jpg");
-  background-size:100% 100%; 
 }
 .dessin-ours {
-	background-color: #22c8ff;
   background-image:url("../Ressources/image/dessin-ours.jpg");
-  background-size:100% 100%; 
 }
 .laine {
-	background-color: #00a6dd;
   background-image:url("../Ressources/image/laine.jpg");
-  background-size:100% 100%;
 }
 .bretagne {
-	background-color: #00a6dd;
   background-image:url("../Ressources/image/bretagne.jpg");
-  background-size:100% 100%;
 }
 .dyinglight {
-	background-color: #00a6dd;
   background-image:url("../Ressources/image/dyinglight.jpg");
-  background-size:100% 100%;
 }
 .Skyrim-pixels-logo {
-	background-color: #00a6dd;
   background-image:url("../Ressources/image/Skyrim-pixels-logo.jpg");
-  background-size:100% 100%;
 }
 .pixel-bow {
-	background-color: #00a6dd;
   background-image:url("../Ressources/video/pixel-bow.gif");
-  background-size:100% 100%;
 }
 .pixel-cry {
-	background-color: #00a6dd;
   background-image:url("../Ressources/video/pixel-cry.gif");
-  background-size:100% 100%;
 }
 .pixel-fight {
-	background-color: #00a6dd;
   background-image:url("../Ressources/video/pixel-fight.gif");
-  background-size:100% 100%;
+
 }
 
 .carousel-indicators {
@@ -76,10 +57,15 @@ body{
 .carousel-control.left {
 	background-image: none;
 }
-.carousel .item {
-	min-height: 350px; 
+.item {
+	min-height: 350px;
+	max-height: 450px; 
 	height: 100%;
 	width:100%; 
+  	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  
 }
 .carousel-caption h3,
 .carousel .icon-container,
@@ -129,7 +115,7 @@ h1 {
   text-decoration: underline;
 }
 
-/*FIN SLIDER*/
+/*END SLIDER*/
 
 a{
 	text-decoration: none;
@@ -398,6 +384,16 @@ footer ul a:hover{
 		margin-left: 0px;
 		margin-right: 0px;
 		width: 100%;
+	}
+	.item{
+		max-width: 100%;
+		width: auto;
+		height: auto;
+		vertical-align: middle;
+		background-size: cover;
+		vertical-align: center;
+		object-fit: contain; 
+		background-position: center center;
 	}
 }
 
